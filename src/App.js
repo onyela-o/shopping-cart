@@ -1,12 +1,17 @@
 import "./App.css";
 import Header from "./components/Header";
-import Card from "./components/Card"
+import Card from "./components/Card";
+import inventory from "./inventory";
+
+function createCard(card) {
+  return <Card title={card.title} description={card.description} />;
+}
+
 function App() {
   return (
     <div className="App">
       <Header />
-      <Card title="Apples" description="A packet of delicious apples"/> 
-      <Card title="Bananas" description="A bunch of delicious bananas"/> 
+      {inventory.map(createCard)}
     </div>
   );
 }
