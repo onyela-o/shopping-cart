@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The project requirements are:
+-Have a list of items
+-Select a product
+-Add items to the cart
+-Update quantity
+-Delete item
+-Total cost for each product
+-Total cost
+
 ## Available Scripts
 
 In the project directory, you can run:
